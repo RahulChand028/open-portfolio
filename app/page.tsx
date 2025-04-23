@@ -1,7 +1,6 @@
 'use client'
 import Image from "next/image";
 import Aurora from './components/Aurora/Aurora';
-import Dock from './components/Dock/Dock';
 import { LinkPreview } from "./components/Linkpreview/Linkpreview";
 import RotatingText from './components/RotatingText/RotatingText'
 import ProjectShowcase from './components/ProjectShowcase/ProjectShowcase';
