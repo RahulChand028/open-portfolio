@@ -7,6 +7,7 @@ import ProjectShowcase from './components/ProjectShowcase/ProjectShowcase';
 import { TextHoverEffect } from "./components/TextHoverEffect/TextHoverEffect";
 import incommImg from '../assets/InComm Benefits - A New Way to HSA.png';
 import clefillImg from '../assets/clefill-image.jpg';
+import SplashCursor from './components/SplashCursor/SplashCursor'
 
 
 export default function Home() {
@@ -21,6 +22,7 @@ export default function Home() {
 
 
 
+      <SplashCursor />
 
       <div className="flex justify-center items-center flex-col px-4 sm:px-6 md:px-8">
         <div className="w-full max-w-4xl mx-auto py-8 sm:py-12 md:py-16">
