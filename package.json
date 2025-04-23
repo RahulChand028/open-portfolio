@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@radix-ui/react-hover-card": "^1.1.11",
+    "@react-spring/web": "^9.7.5",
     "clsx": "^2.1.1",
     "framer-motion": "^11.18.2",
     "motion": "^12.7.5",
