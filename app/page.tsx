@@ -24,7 +24,7 @@ export default function Home() {
 
       <SplashCursor />
 
-      <div className="flex justify-center items-center flex-col px-4 sm:px-6 md:px-8">
+      <div className="flex justify-center items-center -mt-24 flex-col px-4 sm:px-6 md:px-8">
         <div className="w-full max-w-4xl mx-auto py-8 sm:py-12 md:py-16">
 
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-8xl font-bold text-white tracking-tight">
@@ -51,7 +51,7 @@ export default function Home() {
         </div>
 
         <div className="flex justify-center items-center h-auto sm:h-[40rem] flex-col w-full max-w-4xl mx-auto py-8 sm:py-12 md:py-16">
-          <div className="text-neutral-400 text-lg sm:text-xl md:text-2xl lg:text-3xl max-w-3xl mx-auto mb-6 sm:mb-10 leading-relaxed px-4">
+          <div className="text-neutral-400 text-lg sm:text-xl md:text-2xl lg:text-3xl  mx-auto mb-6 sm:mb-10 leading-relaxed px-4">
             <span className="text-white font-medium">I'm a software developer</span> who loves building cool stuff with{" "}
             <LinkPreview
               url="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
@@ -105,11 +105,11 @@ export default function Home() {
             to create <span className="text-white font-medium">scalable and efficient applications</span>.
           </div>
 
-          <p className="text-neutral-400 text-lg sm:text-xl md:text-2xl lg:text-3xl max-w-3xl mx-auto mb-6 sm:mb-10 leading-relaxed px-4">
+          <p className="text-neutral-400 text-lg sm:text-xl md:text-2xl lg:text-3xl  mx-auto mb-6 sm:mb-10 leading-relaxed px-4">
             Beyond coding, I love <span className="text-white font-medium">designing product architectures</span> that optimize performance and scalability. And when I'm not deep in tech, you'll find me enjoying anime, drawing inspiration from storytelling and creativity.
           </p>
 
-          <p className="text-neutral-400 text-lg sm:text-xl md:text-2xl lg:text-3xl max-w-3xl mx-auto leading-relaxed px-4">
+          <p className="text-neutral-400 text-lg sm:text-xl md:text-2xl lg:text-3xl mx-auto leading-relaxed px-4">
             <span className="text-white font-medium">Let's create something awesome together!</span> 🚀
           </p>
         </div>
